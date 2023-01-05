@@ -1,6 +1,8 @@
-# just-the-docs-template
+# Gov Docs
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+This is the docs for [Gov](https://github.com/w3hc/gov)
+
+It's built with [Jekyll] and it:
 
 - uses the [Just the Docs] theme;
 - can be built and published on [GitHub Pages];
@@ -30,7 +32,7 @@ Simply edit the relevant line(s) in the `Gemfile`.
 
 The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+To add an extra plugin, you need to add it in the `Gemfile` _and_ in `_config.yml`. For example, to add [`jekyll-default-layout`]:
 
 - Add the following to your site's `Gemfile`:
 
@@ -88,7 +90,7 @@ Just upload all the files in the directory `_site`.
 
 You're free to customize sites that you create with this template, however you like!
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+[Browse our documentation][just the docs] to learn more about how to use this theme.
 
 ## Licensing and Attribution
 
@@ -96,18 +98,18 @@ This repository is licensed under the [MIT License]. You are generally free to r
 
 The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
 
-----
+---
 
 [^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
+[jekyll]: https://jekyllrb.com
+[just the docs]: https://just-the-docs.github.io/just-the-docs/
+[github pages]: https://docs.github.com/en/pages
+[github pages / actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
+[bundler]: https://bundler.io
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
 [`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
 [`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
+[mit license]: https://en.wikipedia.org/wiki/MIT_License
 [starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
 [actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
