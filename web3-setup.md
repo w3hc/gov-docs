@@ -1,0 +1,31 @@
+---
+title: Web3 setup
+layout: home
+nav_order: 10
+---
+
+# Web3 setup
+
+To use Gov, you will need three things:
+
+- MetaMask installed
+- Optimism added to your MetaMask
+- A handful of Optimism ETH
+
+## MetaMask
+
+Tally is MetaMask-only for now, so you have to have it installed if you want to interact with your DAO, meaning submitting proposals and vote.
+
+Go to [MetaMask](https://metamask.io/) official website, download and install it.
+
+It is recommended to properly back up your MetaMask, so just follow the instructions and you'll be fine.
+
+## Optimism
+
+Tally supports several different networks, but as of now Gov only supports Optimism so you can use [Chainlist](https://chainlist.org/chain/10), click on 'Add to MetaMask' and that's it: you're on Optimism!
+
+## ETH on Optimism
+
+To interact with your DAO, you're going to need a handful of Optimism ETH. For example casting a vote costs less than 1 cent, but you still need to pay for this yourself. If you already have some ETH, you can use the [bridge](https://app.optimism.io/bridge/deposit). If you don't have ETH yet, you can buy 'ETH **on Optimism**' via [Ramp](https://ramp.network/buy/), [Transak](https://global.transak.com/) or [Moonpay](https://www.moonpay.com/buy).
+
+If you're not confortable with these things, feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).

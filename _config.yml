@@ -5,6 +5,18 @@ theme: just-the-docs
 url: https://w3hc.github.io/gov-docs/
 
 aux_links:
-  Gov on Github: https://github.com/w3hc/gov
+  Github repo: https://github.com/w3hc/gov
 
 color_scheme: dark
+
+favicon_ico: "/assets/images/favicon.ico"
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
