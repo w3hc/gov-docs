@@ -1,7 +1,7 @@
 ---
 title: Plugins
 layout: home
-nav_order: 80
+nav_order: 70
 ---
 
 # Plugins
@@ -28,7 +28,7 @@ If some money were spent in the meantime, people who donated could withdraw prop
 
 Since the DAO members do the work of verifying every proposal, it can make sense to issue a hypercert when the proposal is executed. Fractions of these could then be sold.
 
-### Onbording
+### Onboarding
 
 As of now, only a community vote can add a new member. We're working on a plugin that would allow the following workflow: 
 
@@ -38,7 +38,7 @@ As of now, only a community vote can add a new member. We're working on a plugin
 
 Alice will need to have MetaMask installed, BUT she wouldn't need to buy any ETH to withdraw her NFT and become a member.
 
-## Under dev
+## Contracts
 
 You can find the draft plugins in the [`/contracts/plugins`](https://github.com/w3hc/gov/tree/main/contracts/plugins) directory. Please note they're unsafe to use right now.
 

@@ -1,10 +1,10 @@
 ---
-title: Deployment
+title: Example
 layout: home
-nav_order: 40
+nav_order: 80
 ---
 
-# Latest deployment
+# Example DAO
 
 Deployed to Goerli Testnet on Jan 3, 2023 at 6:01pm UTC:
 
@@ -12,3 +12,5 @@ Deployed to Goerli Testnet on Jan 3, 2023 at 6:01pm UTC:
 - Gov: [0x690C775dD85365a0b288B30c338ca1E725abD50E](https://goerli.etherscan.io/address/0x690C775dD85365a0b288B30c338ca1E725abD50E#code)
 
 [View this DAO on Tally](https://www.tally.xyz/gov/eip155:5:0x690C775dD85365a0b288B30c338ca1E725abD50E){: .btn .btn-purple }
+
+You can also check out [Gov UI](https://gov-ui.netlify.app/activity) which basically list the DAO proposals and redirect the users to Tally.

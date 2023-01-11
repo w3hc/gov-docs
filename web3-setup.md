@@ -6,7 +6,7 @@ nav_order: 10
 
 # Web3 setup
 
-To use Gov, you will need three things:
+We're working on an [onboarding plugin](/plugins.html#onboarding), but as of now you will need three things to use Gov:
 
 - MetaMask installed
 - Optimism added to your MetaMask
@@ -18,7 +18,7 @@ Tally is MetaMask-only for now, so you have to have it installed if you want to 
 
 Go to [MetaMask](https://metamask.io/) official website, download and install it.
 
-It is recommended to properly back up your MetaMask, so just follow the instructions and you'll be fine.
+It is recommended to back up your MetaMask, so just follow the instructions and you'll be fine.
 
 ## Optimism
 

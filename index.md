@@ -8,37 +8,44 @@ nav_order: 1
 
 [Gov](https://github.com/w3hc/gov-docs) is a DAO template built with Open Zeppelin's Governor contract in combination with NFTs.
 
-The goal of the project is to **provide a coordination tool that fits the needs of everyday people**. Orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and other communities can use to organize themselves.
-
-We want DAOs to be secure, scalable and easy to use.
+The goal of the project is to provide a coordination tool that fits the needs of everyday people.
 
 [View a test DAO on Tally](https://www.tally.xyz/gov/eip155:5:0x690C775dD85365a0b288B30c338ca1E725abD50E){: .btn .btn-purple }
 
-## Intro
+## Features
 
-In a [recent post](http://bafybeieaa73llmb6bkq5dau4k2goj5joc5yfqreloowy3aysfcjrsjmqb4.ipfs.localhost:8080/general/2022/09/20/daos.html), Vitalik Buterin wrote: 
+- [DAO membership NFTS (ERC-721)](/#dao-membership-nfts)
+- [On-chain voting system (Governor)](/#on-chain-voting-system)
+- [Members vote to add or ban a member](/#members-vote-to-add-or-ban-a-member)
+- [Easy to config, deploy and run](/#easy-to-config-deploy-and-run)
+- [Fully compatible with Tally](/#fully-compatible-with-tally)
+- [Extreme composability/modularity](/#extreme-composabilitymodularity)
+- [Upgradeable governance settings](/#upgradeable-governance-settings)
 
-> A system that directs funding for a particular cause - whether [Optimism retroactive funding](https://medium.com/ethereum-optimism/retroactive-public-goods-funding-33c9b7d00f0c), [VitaDAO](https://www.vitadao.com/), [UkraineDAO](https://ukrainedao.love/) or something else - is optimizing for a much more complicated purpose than profit maximization, and so an alignment solution other than shareholder profit is needed to make sure it keeps using the funds for the purpose that was intended.
+### DAO membership NFTS
 
-DAOs are basically communities that set their operating rules on-chain, meaning that no one except the DAO members can modify these rules. It always ways tricky to allow people who are not familiar with the crypto thing to just use these powerful techniques. [Tally](tally.xyz) provides an excellent interface to monitor DAOs, and [Open Zeppelin](https://www.openzeppelin.com/) worked hard to offer a very complete set of smart contracts. Now that the missing parts are finally here, it's time to take advantage of them.
+The membership of your DAO is represented by an NFT. One person, one vote. This NFT is customizable: you can submit a proposal to modify the metadata of your NFT. 
 
-Gov includes one of the strongest voting system in existence. DAO members can vote to:
+### On-chain voting system
 
-- Add a member
-- Ban a member
-- Edit its manifesto
-- Allocate the funds of the DAO treasury
+Open Zeppelin's Governor contract defines the voting rules: it allows members to cast a their vote, it counts the votes and execute the proposal if successful.
 
-"On what do we vote?" would you ask. This depends on your own collective's objective. The **statement of intent** of your DAO can be written in the manifesto, which also includes the criteria for incoming proposals, info about the DAO members, and also some legal aspects related to your DAO. You as an independent and self-organized group of people are technically the only ones allowed to take these executive decisions. 
+### Members vote to add or ban a member
 
-One member, one vote.
+You can add or ban a member of the DAO by submitting a proposal. 
 
-### Features
+### Easy to config, deploy and run
 
-- DAO membership NFTS (ERC-721)
-- On-chain voting system (Governor)
-- Members vote to add or ban a member
-- Easy to config, deploy and run
-- Fully compatible with [Tally](https://www.tally.xyz/)
-- Extreme composability/modularity
-- Upgradeable governance settings
+Gov is one of the easiest existing way to launch a secure and scalable DAO. 
+
+### Fully compatible with Tally
+
+You can use [Tally](https://www.tally.xyz/) to monitor your DAO. 
+
+### Extreme composability/modularity
+
+The Governor contract allows us to trigger custom on-chain actions. When you deploy a Solidity contract and transfer its ownership to the Gov, the DAO is the only entity allowed to interact with functions marked `onlyOwner`. The [plugins](/plugins.html) are optional functionalities you can add to your DAO.
+
+### Upgradeable governance settings
+
+You can upgrade the voting parameters by a community vote. Learn more about the [vote settings](/vote-settings.html).  
