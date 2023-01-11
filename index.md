@@ -14,7 +14,7 @@ The goal of the project is to provide a coordination tool that fits the needs of
 
 ## Features
 
-- [DAO membership NFTS (ERC-721)](/#dao-membership-nfts)
+- [DAO membership NFTS (ERC-721)](./#dao-membership-nfts)
 - [On-chain voting system (Governor)](/#on-chain-voting-system)
 - [Members vote to add or ban a member](/#members-vote-to-add-or-ban-a-member)
 - [Easy to config, deploy and run](/#easy-to-config-deploy-and-run)
