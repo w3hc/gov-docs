@@ -15,12 +15,12 @@ The goal of the project is to provide a coordination tool that fits the needs of
 ## Features
 
 - [DAO membership NFTS (ERC-721)](./#dao-membership-nfts)
-- [On-chain voting system (Governor)](/#on-chain-voting-system)
-- [Members vote to add or ban a member](/#members-vote-to-add-or-ban-a-member)
-- [Easy to config, deploy and run](/#easy-to-config-deploy-and-run)
-- [Fully compatible with Tally](/#fully-compatible-with-tally)
-- [Extreme composability/modularity](/#extreme-composabilitymodularity)
-- [Upgradeable governance settings](/#upgradeable-governance-settings)
+- [On-chain voting system (Governor)](./#on-chain-voting-system)
+- [Members vote to add or ban a member](./#members-vote-to-add-or-ban-a-member)
+- [Easy to config, deploy and run](./#easy-to-config-deploy-and-run)
+- [Fully compatible with Tally](./#fully-compatible-with-tally)
+- [Extreme composability/modularity](./#extreme-composabilitymodularity)
+- [Upgradeable governance settings](./#upgradeable-governance-settings)
 
 ### DAO membership NFTS
 
@@ -44,8 +44,8 @@ You can use [Tally](https://www.tally.xyz/) to monitor your DAO.
 
 ### Extreme composability/modularity
 
-The Governor contract allows us to trigger custom on-chain actions. When you deploy a Solidity contract and transfer its ownership to the Gov, the DAO is the only entity allowed to interact with functions marked `onlyOwner`. The [plugins](/plugins.html) are optional functionalities you can add to your DAO.
+The Governor contract allows us to trigger custom on-chain actions. When you deploy a Solidity contract and transfer its ownership to the Gov, the DAO is the only entity allowed to interact with functions marked `onlyOwner`. The [plugins](./plugins.html) are optional functionalities you can add to your DAO.
 
 ### Upgradeable governance settings
 
-You can upgrade the voting parameters by a community vote. Learn more about the [vote settings](/vote-settings.html).  
+You can upgrade the voting parameters by a community vote. Learn more about the [vote settings](./vote-settings.html).  
