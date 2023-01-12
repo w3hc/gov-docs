@@ -8,7 +8,7 @@ nav_order: 35
 
 This diagrams describes the interactions between the Gov and NFT contract.
 
-![schema](/assets/images/contracts-explained.png)
+![schema](./assets/images/contracts-explained.png)
 
 [View on Whimsical](https://whimsical.com/gov-solidity-contracts-explained-54JFEr6Q2BQEG8JvVER5Yq@2Ux7TurymMxL6PifW3WM)
 
