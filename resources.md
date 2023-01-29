@@ -17,3 +17,4 @@ nav_order: 90
 - [Build an NFT DAO from Scratch - Tally Tutorial](https://www.youtube.com/watch?v=cAbHwCWJAG4)
 - [How to Code an On-Chain DAO](https://betterprogramming.pub/how-to-code-an-on-chain-dao-e525e13a57be) (Feb 2022)
 - [DAOs Are the New Way of Impact Work](https://www.coindesk.com/layer2/futureofworkweek/2022/07/01/daos-are-the-new-way-of-impact-work/)
+- [4 Principles for Building Sticky DAO Communities](https://blog.tally.xyz/4-principles-for-building-sticky-dao-communities-95fb482b71bf) by Barnabas Atam (Nov 2022)

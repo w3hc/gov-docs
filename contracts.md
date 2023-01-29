@@ -23,6 +23,7 @@ import "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol
 import "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol";
 import "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol";
 
+/// @custom:security-contact julien@strat.cc
 contract Gov is
     Governor,
     GovernorSettings,
@@ -105,6 +106,7 @@ import "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/draft-ERC721Votes.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
+/// @custom:security-contact julien@strat.cc
 contract NFT is
     ERC721,
     ERC721Enumerable,
