@@ -9,17 +9,19 @@ nav_order: 40
 Before you deploy your DAO, you should ask yourself the following questions: 
 
 - What is the objective of your DAO?
-- What are the criteria of an *acceptable* proposal?
+- What kind of proposals do you expected?
 - Who are the first members? 
 
-## Steps
+## Checklist
 
-- Upload the metadata for NFT id #0
-- Upload the metadata for NFT id #1
+- Upload the metadata for NFTs (first members's NFTs) to IPFS
 - Deploy the NFT contract
-- Deploy the Gov contract (with the NFT contract address)
+- Upload the manifesto to IPFS
+- Deploy the Gov contract
 - Transfer the NFT contract ownership to Gov
-- Member #0 delegates (in Tally)
-- Member #1 delegates (in Tally)
-- Edit and upload the manifesto
-- Submit a proposal to trigger `setManifesto`
+- Add the DAO to Tally
+- Each member should set the delegation
+
+## Guide
+
+A tutorial is currently under edit. If you want to deploy your DAO, feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
