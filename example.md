@@ -1,5 +1,5 @@
 ---
-title: Example DAO
+title: Example DAOs
 layout: home
 nav_order: 80
 ---
