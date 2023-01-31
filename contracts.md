@@ -23,6 +23,8 @@ import "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol
 import "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol";
 import "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol";
 
+/// @title DAO contract
+/// @author Web3 Hackers Collective
 /// @custom:security-contact julien@strat.cc
 contract Gov is
     Governor,
@@ -36,13 +38,21 @@ contract Gov is
     event ManifestoUpdated(string cid);
 
     constructor(
-        IVotes _token
+        IVotes _token,
+        string memory _manifesto,
+        string memory _name,
+        uint256 _votingDelay,
+        uint256 _votingPeriod,
+        uint256 _votingThreshold,
+        uint256 _quorum
     )
-        Governor("Gov")
-        GovernorSettings(1, 150, 1)
+        Governor(_name)
+        GovernorSettings(_votingDelay, _votingPeriod, _votingThreshold)
         GovernorVotes(_token)
-        GovernorVotesQuorumFraction(20)
-    {}
+        GovernorVotesQuorumFraction(_quorum)
+    {
+        manifesto = _manifesto;
+    }
 
     function votingDelay()
         public
@@ -82,12 +92,14 @@ contract Gov is
         return super.proposalThreshold();
     }
 
+    /// @notice Replaces the CID of the manifesto
+    /// @dev Must include the DAO mission statement
+    /// @param cid The CID of the new manifesto
     function setManifesto(string memory cid) public onlyGovernance {
         manifesto = cid;
         emit ManifestoUpdated(cid);
     }
 }
-
 ```
 [View on Etherscan](https://goerli.etherscan.io/address/0x690C775dD85365a0b288B30c338ca1E725abD50E#code)
 
@@ -106,6 +118,8 @@ import "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/draft-ERC721Votes.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
+/// @title DAO Membership NFT contract
+/// @author Web3 Hackers Collective
 /// @custom:security-contact julien@strat.cc
 contract NFT is
     ERC721,
@@ -129,6 +143,10 @@ contract NFT is
         }
     }
 
+    /// @notice Adds a member
+    /// @dev Marked `onlyOwner`: only the Gov contract can access this function
+    /// @param to The address of the recipient
+    /// @param uri The `tokenURI` of the new member's NFT metadata (should be "ipfs://<CID>")
     function safeMint(address to, string memory uri) public onlyOwner {
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
@@ -160,6 +178,9 @@ contract NFT is
         super._burn(tokenId);
     }
 
+    /// @notice Bans a member
+    /// @dev Marked `onlyOwner`: only the Gov contract can access this function
+    /// @param tokenId The id of the NFT
     function govBurn(uint256 tokenId) public onlyOwner {
         _burn(tokenId);
     }
@@ -170,6 +191,10 @@ contract NFT is
         return super.tokenURI(tokenId);
     }
 
+    /// @notice Replaces the tokenId of a given NFT
+    /// @dev Marked `onlyOwner`: only the Gov contract can access this function
+    /// @param tokenId The id of the NFT
+    /// @param uri The new `tokenURI` for this ID (should be "ipfs://<CID>")
     function setMetadata(uint256 tokenId, string memory uri) public onlyOwner {
         _setTokenURI(tokenId, uri);
     }
