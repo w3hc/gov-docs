@@ -6,11 +6,9 @@ nav_order: 1
 
 # Welcome! ✨
 
-[Gov](https://github.com/w3hc/gov) is a DAO framework built with Open Zeppelin's Governor contract in combination with NFTs.
+[Gov](https://github.com/w3hc/gov) is a DAO framework built with Open Zeppelin's Governor contract in combination with NFTs. It provides **a coordination tool that fits the needs of everyday people**.
 
-The goal of the project is to provide **a coordination tool that fits the needs of everyday people**.
-
-We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://github.com/w3hc) is about to release the [beta version](https://github.com/w3hc/gov/milestone/3) of [Gov](https://github.com/w3hc/gov). We'll run **five different pilots** and focus exclusively on the impact evaluation process of each DAO. 
+We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://github.com/w3hc) is about to release the [beta version](https://github.com/w3hc/gov/milestone/3) of [Gov](https://github.com/w3hc/gov). We want to run five different pilots and **focus exclusively on the impact evaluation process** of each DAO. 
 
 [Gov](https://github.com/w3hc/gov) can be viewed as a retroactive funding tool: people can use it to **fund on-the-ground actions that has already been delivered** (as opposed to funding actions *planned in the future*).
 
