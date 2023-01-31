@@ -6,11 +6,19 @@ nav_order: 1
 
 # Welcome! ✨
 
-[Gov](https://github.com/w3hc/gov-docs) is a DAO template built with Open Zeppelin's Governor contract in combination with NFTs.
+[Gov](https://github.com/w3hc/gov) is a DAO framework built with Open Zeppelin's Governor contract in combination with NFTs.
 
-The goal of the project is to provide a coordination tool that fits the needs of everyday people.
+The goal of the project is to provide **a coordination tool that fits the needs of everyday people**.
 
-[View a test DAO on Tally](https://www.tally.xyz/gov/eip155:5:0x690C775dD85365a0b288B30c338ca1E725abD50E){: .btn .btn-purple }
+We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://github.com/w3hc) is about to release the [beta version](https://github.com/w3hc/gov/milestone/3) of [Gov](https://github.com/w3hc/gov). We'll run **five different pilots** and focus exclusively on the impact evaluation process of each DAO. 
+
+[Gov](https://github.com/w3hc/gov) can be viewed as a retroactive funding tool: people can use it to **fund on-the-ground actions that has already been delivered** (as opposed to funding actions *planned in the future*).
+
+## Deployment
+
+You can find the deployment checklist [here](./deployment.html#checklist). For the moment we don't provide a no-code interface to launch your DAO, so once you decided about (1) your mission statement, (2) the types of proposals your collective is willing to vote, and (3) the [vote settings](./vote-settings.html#guide), we can take an hour to deploy your DAO to the network of your choice. Feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
+
+Once your DAO is deployed, you can use [Tally](https://www.tally.xyz/) to submit proposals and vote. 
 
 ## Features
 
