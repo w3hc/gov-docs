@@ -36,7 +36,7 @@ It is recommended to set it to `1` so that the members can vote right after the 
 
 ### Voting period
 
-On Optimism, the average block confirmation time is 2 seconds, so if you want a voting period of 2 weeks you can set it to `604800` blocks.
+[content required]
 
 ### Quorum
 
