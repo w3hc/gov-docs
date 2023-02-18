@@ -19,3 +19,4 @@ nav_order: 90
 - [DAOs Are the New Way of Impact Work](https://www.coindesk.com/layer2/futureofworkweek/2022/07/01/daos-are-the-new-way-of-impact-work/)
 - [4 Principles for Building Sticky DAO Communities](https://blog.tally.xyz/4-principles-for-building-sticky-dao-communities-95fb482b71bf) by Barnabas Atam (Nov 2022)
 - [Scaling Trust in DAOs: Trustware vs Socialware](https://orca.mirror.xyz/T70CmuhX95ubkw_JHOxSEy8d_EFeYXgtJnF13mPtaZE) (June 2022)
+- [Ethereum.org's DAO page](https://ethereum.org/en/dao/)
