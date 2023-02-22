@@ -8,9 +8,23 @@ nav_order: 1
 
 [Gov](https://github.com/w3hc/gov) is a DAO framework built with Open Zeppelin's Governor contract in combination with NFTs. It provides **a coordination tool that fits the needs of everyday people**.
 
-We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://github.com/w3hc) is about to release the [beta version](https://github.com/w3hc/gov/milestone/3) of [Gov](https://github.com/w3hc/gov). We want to run five different pilots and **focus exclusively on the impact evaluation process** of each DAO. 
+We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://github.com/w3hc) has recently released the [beta version](https://github.com/w3hc/gov/releases/tag/v0.9.0-beta) of [Gov](https://github.com/w3hc/gov). We want to run five different pilots and **focus exclusively on the impact evaluation process** of each DAO. 
 
 [Gov](https://github.com/w3hc/gov) can be viewed as a retroactive funding tool: people can use it to **fund on-the-ground actions that has already been delivered** (as opposed to funding actions *planned in the future*).
+
+Gov is fully compatible with [Tally](https://www.tally.xyz/) (they have the best existing UI in town!)
+
+We're currently supporting Optimism Mainnet, Ethereum Goerli Testnet, Optimism Goerli Testnet, and Arbitrum Goerli Testnet.
+
+Also, we have successfully tested [Medusa](https://medusanet.xyz/) (Arbitrum Goerli Testnet only for now). This allows anyone to share a document **that can only be decrypted by the members** of a given DAO.
+
+## Roadmap
+
+- Finalize the legal aspects of the project (yes!)
+- Integrate with [Hypercerts](https://hypercerts.org/)
+- Provide a 'one-click deployment' UI
+- Develop the 'dynamic vault' (using the [ERC-4626](https://eips.ethereum.org/EIPS/eip-4626))
+- Support other EVM-compatible networks
 
 ## Deployment
 
@@ -30,7 +44,7 @@ Once your DAO is deployed, you can use [Tally](https://www.tally.xyz/) to submit
 
 ### DAO membership NFTS
 
-The membership of your DAO is represented by an NFT. One person, one vote. This NFT is customizable: you can submit a proposal to modify the metadata of your NFT. 
+The membership of your DAO is represented by an NFT. One person, one vote. These NFTs can be viewed as 'membership cards'. They're customizable: you can submit a proposal to modify the metadata of your NFT.
 
 ### On-chain voting system
 
@@ -46,7 +60,7 @@ Gov is one of the easiest existing way to launch a secure and scalable DAO.
 
 ### Fully compatible with Tally
 
-You can use [Tally](https://www.tally.xyz/) to monitor your DAO. 
+You can use [Tally](https://www.tally.xyz/) to monitor your DAO, submit proposal and vote. 
 
 ### Extreme composability/modularity
 
@@ -54,4 +68,4 @@ The Governor contract allows us to trigger custom on-chain actions. When you dep
 
 ### Upgradeable governance settings
 
-You can upgrade the voting parameters by a community vote. Learn more about the [vote settings](./vote-settings.html).  
+You can upgrade the voting parameters by a community vote. Learn more about the [vote settings](./vote-settings.html).
