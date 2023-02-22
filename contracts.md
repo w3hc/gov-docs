@@ -100,7 +100,7 @@ contract Gov is
     }
 }
 ```
-[View on Etherscan](https://goerli.etherscan.io/address/0x690C775dD85365a0b288B30c338ca1E725abD50E#code)
+[View on Etherscan](https://goerli.etherscan.io/address/0x90c54A30Ab0CAeBFAaAB4981E165AcCD472a0c3A#code)
 
 ## NFT.sol
 
@@ -204,4 +204,4 @@ contract NFT is
     }
 }
 ```
-[View on Etherscan](https://goerli.etherscan.io/address/0x1B2EbCC8F787eA02f8C9184012Ebc96cd9C98DB4#code)
+[View on Etherscan](https://goerli.etherscan.io/address/0xAa15FA49686Ce28085D61bb5f11C0C8208cE3472#code)
