@@ -25,7 +25,6 @@ import "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFractio
 
 /// @title DAO contract
 /// @author Web3 Hackers Collective
-/// @custom:security-contact julien@strat.cc
 contract Gov is
     Governor,
     GovernorSettings,
@@ -120,7 +119,6 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 
 /// @title DAO Membership NFT contract
 /// @author Web3 Hackers Collective
-/// @custom:security-contact julien@strat.cc
 contract NFT is
     ERC721,
     ERC721Enumerable,
