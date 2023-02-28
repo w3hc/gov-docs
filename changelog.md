@@ -6,7 +6,6 @@ nav_order: 100
 
 # Changelog
 
-
 ### [v0.9.0-beta](https://github.com/w3hc/gov/releases/tag/v0.9.0-beta)
 
 - Fixed the quorum calculation issue
@@ -17,7 +16,7 @@ nav_order: 100
 - Added proposal upload script
 - Added tests for nft delegation
 - Added scalability test
-- 
+
 ### [v0.8.0-alpha](https://github.com/w3hc/gov/releases/tag/v0.8.0-alpha)
 
 - Added Manifesto contract
