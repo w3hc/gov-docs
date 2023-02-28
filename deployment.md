@@ -18,6 +18,9 @@ A complete tutorial and a 'one-click deployment' app are both on our to-do list,
 
 ## Checklist
 
+{: .warning }
+For security reasons, the `votingPeriod` is denominated in **number of blocks**. By default, it's set to `300` (a few minutes) for testing purposes. The Web3 Hackers Collective has it set to 40320 (6 days on pre-Bedrock Optimism Mainnet). Two weeks is often recommended. You can calculate it using the explorer of a given network.
+
 - Make sure the addresses of the first members are correct
 - Edit the value of the `metadata` variable
 - Run the `deploy-nft.ts` script
@@ -26,43 +29,44 @@ A complete tutorial and a 'one-click deployment' app are both on our to-do list,
 - Run the `deploy-gov.ts` script
 - Transfer the NFT contract ownership to Gov
 - Add the DAO to Tally
-- Each member should set the delegation
+- Each member can delegate to self
+- You can vote a Manifesto and NFT metadata update to include the DAO contract address
 
 ## Commands
 
-#### Deploy to Goerli
+### Deploy to Goerli
 
-```js
+```
 npm run deploy
 ```
 
 Alternatively, you can run: 
 
-```js
+```
 npx hardhat run scripts/clear.ts
-&& npx hardhat run scripts/deploy-nft.ts --network goerli
-&& npx hardhat run scripts/deploy-gov.ts --network goerli
+npx hardhat run scripts/deploy-nft.ts --network goerli
+npx hardhat run scripts/deploy-gov.ts --network goerli
 ```
 
-#### Deploy to Optimism Goerli
+### Deploy to Optimism Goerli
 
-```js
+```
 npx hardhat run scripts/clear.ts
-&& npx hardhat run scripts/deploy-nft.ts --network optimism-goerli
-&& npx hardhat run scripts/deploy-gov.ts --network optimism-goerli
+npx hardhat run scripts/deploy-nft.ts --network optimism-goerli
+npx hardhat run scripts/deploy-gov.ts --network optimism-goerli
 ```
 
-#### Deploy to Arbitrum Goerli
+### Deploy to Arbitrum Goerli
 
-```js
+```
 npx hardhat run scripts/clear.ts
-&& npx hardhat run scripts/deploy-nft.ts --network arbitrum-goerli
-&& npx hardhat run scripts/deploy-gov.ts --network arbitrum-goerli
+npx hardhat run scripts/deploy-nft.ts --network arbitrum-goerli
+npx hardhat run scripts/deploy-gov.ts --network arbitrum-goerli
 ```
 
-#### Deploy to Optimism Mainnet
+### Deploy to Optimism Mainnet
 
-```js
+```
 npx hardhat run scripts/clear.ts
 npx hardhat run scripts/deploy-nft.ts --network optimism
 npx hardhat run scripts/deploy-gov.ts --network optimism
@@ -70,29 +74,29 @@ npx hardhat run scripts/deploy-gov.ts --network optimism
 
 ## Use
 
-#### Upload metadata
+### Upload the NFT metadata
 
 Edit the metadata in `upload-metadata.ts`, then:
 
-```js
+```
 npx hardhat run scripts/upload-metadata.ts
 ```
 
-#### Upload manifesto
+### Upload the manifesto
 
 Edit the `manifesto.md` file, then:
 
-```js
+```
 npx hardhat run scripts/upload-manifesto.ts
 ```
 
 Note that you can put a whole website in the manifesto directory, the result will be the same: you'll get the CID of your manifesto.
 
-#### Submit a proposal
+### Submit a proposal
 
 Edit the `submit-proposal.ts` file, then:
 
-```js
+```
 npx hardhat run scripts/submit-proposal.ts --network goerli
 ```
 
