@@ -8,13 +8,18 @@ nav_order: 1
 
 [Gov](https://github.com/w3hc/gov) is a DAO framework built with Open Zeppelin's Governor contract in combination with NFTs. It provides **a coordination tool that fits the needs of everyday people**.
 
-We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://github.com/w3hc) has recently released the [beta version](https://github.com/w3hc/gov/releases/tag/v0.9.0-beta) of [Gov](https://github.com/w3hc/gov). We want to run five different pilots and **focus exclusively on the impact evaluation process** of each DAO. 
+We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [beta version](https://github.com/w3hc/gov/releases/tag/v0.9.0-beta) of [Gov](https://github.com/w3hc/gov). We want to run five different pilots and **focus exclusively on the impact evaluation process** of each DAO.
 
 [Gov](https://github.com/w3hc/gov) can be viewed as a retroactive funding tool: people can use it to **fund on-the-ground actions that has already been delivered** (as opposed to funding actions *planned in the future*).
 
 Gov is fully compatible with [Tally](https://www.tally.xyz/) (they have the best existing UI in town!)
 
-We're currently supporting Optimism Mainnet, Ethereum Goerli Testnet, Optimism Goerli Testnet, and Arbitrum Goerli Testnet.
+We're currently supporting the following networks: 
+
+- Optimism Mainnet
+- Ethereum Goerli Testnet 
+- Optimism Goerli Testnet
+- Arbitrum Goerli Testnet
 
 Also, we have successfully tested [Medusa](https://medusanet.xyz/) (Arbitrum Goerli Testnet only for now). This allows anyone to share a document **that can only be decrypted by the members** of a given DAO.
 
@@ -26,9 +31,9 @@ Also, we have successfully tested [Medusa](https://medusanet.xyz/) (Arbitrum Goe
 - Develop the 'dynamic vault' (using the [ERC-4626](https://eips.ethereum.org/EIPS/eip-4626))
 - Support other EVM-compatible networks
 
-## Deployment
+## Deploy your own DAO
 
-You can find the deployment checklist [here](./deployment.html#checklist). For the moment we don't provide a no-code interface to launch your DAO, so once you decided about (1) your mission statement, (2) the types of proposals your collective is willing to vote, and (3) the [vote settings](./vote-settings.html#guide), we can take an hour to deploy your DAO to the network of your choice. Feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
+You can find the deployment checklist [here](./deployment.html#checklist). For the moment we don't provide any interface to launch your DAO, so once you decided about (1) your mission statement, (2) the types of proposals your collective is willing to vote, and (3) the [vote settings](./vote-settings.html#guide), we can take an hour to deploy your DAO to the network of your choice. Feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
 
 Once your DAO is deployed, you can use [Tally](https://www.tally.xyz/) to submit proposals and vote. 
 
