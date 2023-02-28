@@ -13,10 +13,10 @@ One member, one vote.
 ## Default settings
 
 {: .warning }
-The current voting period is set to 100 blocks (only a few minutes) for testing purposes. It's important to give people enough time to vote. 
+The current voting period is set to 300 blocks (only a few minutes) for testing purposes. It's important to give people enough time to vote. 
 
 - Voting delay: `1` (1 block)
-- Voting period: `100` (100 blocks)
+- Voting period: `300` (300 blocks)
 - Quorum: `20` (20%)
 - Proposal threshold: `1` (1 NFT)
 
