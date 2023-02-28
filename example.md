@@ -8,7 +8,7 @@ nav_order: 80
 
 ## Optimism Mainnet
 
-The Web3 Hackers Collective was deployed to Optimism Mainnet on Feb 24, 2023 at 10:10am UTC:
+The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) was deployed to Optimism Mainnet on Feb 24, 2023 at 10:10am UTC:
 
 - NFT: [0xc49b1b7176a8d1192d5e139b064f012b6bf7f439](https://optimistic.etherscan.io/address/0xc49b1b7176a8d1192d5e139b064f012b6bf7f439#code)
 - Gov: [0x83e2403a8b94af988b4f4ae9869577783b8cd216](https://optimistic.etherscan.io/address/0x83e2403a8b94af988b4f4ae9869577783b8cd216#code)
