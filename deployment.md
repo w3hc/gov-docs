@@ -9,7 +9,7 @@ nav_order: 40
 Before you deploy your DAO, you should ask yourself the following questions: 
 
 - What is the objective of your DAO?
-- What kind of proposals do you expected?
+- What kind of proposals do you expect?
 - Who are the first members? 
 
 ## Guide
