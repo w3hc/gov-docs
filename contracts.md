@@ -6,7 +6,7 @@ nav_order: 35
 
 # Solidity contracts
 
-This diagrams describes the interactions between the Gov and NFT contract.
+This diagrams describes the interactions between the Gov and NFT contracts.
 
 ![diagram](./assets/images/contracts-explained.png)
 
