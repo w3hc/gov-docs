@@ -12,9 +12,7 @@ Before you deploy your DAO, you should ask yourself the following questions:
 - What kind of proposals do you expect?
 - Who are the first members? 
 
-## Guide
-
-A complete tutorial and a 'one-click deployment' app are both on our to-do list, but if you want to deploy your DAO right now feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
+[Deploy your own DAO](https://gov-ui.on.fleek.co/){: .btn .btn-purple }
 
 ## Checklist
 

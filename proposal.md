@@ -23,11 +23,11 @@ A good proposal should be as much documented as possible to make it easy for the
 - **Discuss** about a given idea/proposal
     - Discussion between the beneficiary and the members/evaluators
     - Learn more about the DAO objective and how to attain it
-- **Take action** on the ground (even if tiny)
+- **Take action** on the ground
 - **Gather** proofs of what you’ve done
     - As many as possible
     - You'd have to advance the money (you can be confident to do that because of the previous discussions with the members)
 - **Submit** your proposal
-    - The members/evaluators take the time to verify 
+    - The members/auditors take the time to verify 
 - The members **vote** 
 - **Receive** the money (in case the proposal passes)

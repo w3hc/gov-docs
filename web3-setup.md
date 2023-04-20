@@ -28,7 +28,7 @@ Tally supports several different networks, but as of now Gov only supports Optim
 
 To interact with your DAO, you're going to need a handful of Optimism ETH. For example casting a vote costs less than 1 cent, but you still need to pay for this yourself. If you already have some ETH, you can use the [bridge](https://app.optimism.io/bridge/deposit). If you don't have ETH yet, you can buy 'ETH **on Optimism**' via services like [Ramp](https://ramp.network/buy/), [Transak](https://global.transak.com/) or [Moonpay](https://www.moonpay.com/buy).
 
-If you're not confortable with these things, feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
+If you're not confortable with these things, feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.com/invite/uSxzJp3J76), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
 
 # Why do you need MetaMask?
 

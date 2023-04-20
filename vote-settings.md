@@ -8,7 +8,7 @@ nav_order: 35
 
 Gov includes an on-chain voting system where only the owner of a given NFT is allowed to vote. 
 
-One member, one vote.
+One person, one vote.
 
 ## Default settings
 

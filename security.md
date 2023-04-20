@@ -6,7 +6,7 @@ nav_order: 40
 
 # Security
 
-Here are the differences from the Governor and ERC-721 implementations [suggested](https://wizard.openzeppelin.com/#governor) by Open Zeppelin:
+Here are the differences between the Governor/ERC-721 implementations suggested by Open Zeppelin and ours:
 
 ### [Gov.sol](https://github.com/w3hc/gov/blob/main/contracts/Gov.sol)
 

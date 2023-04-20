@@ -10,8 +10,6 @@ This diagrams describes the interactions between the Gov and NFT contracts.
 
 ![diagram](./assets/images/contracts-explained.png)
 
-Any plugin is optional. See the [plugin section](./plugins.html) to learn more. 
-
 [View this diagram Whimsical](https://whimsical.com/gov-solidity-contracts-explained-54JFEr6Q2BQEG8JvVER5Yq@2Ux7TurymMxL6PifW3WM)
 
 ## Gov.sol
