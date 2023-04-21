@@ -8,6 +8,10 @@ nav_order: 55
 
 We'll want to run a series of pilots, the [W3HC](https://www.tally.xyz/gov/web3-hackers-collective) (Web3 Hackers Collective) is one of them. The goal is to test things IRL and answer this question: 
 
+**"Does using a DAO improve anything?"**
+
+We would bet the answer is "yes", but we need to show everyone that using a DAO means an objective net benefit for the community. Do people participate in the votes? Do people get significantly more funding? Are contributors actually incentivized to take action? 
+
 ## Metrics
 
 For each DAO, here are the metrics we'll be tracking: 
