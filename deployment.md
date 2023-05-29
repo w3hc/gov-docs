@@ -46,7 +46,7 @@ npx hardhat run scripts/deploy-nft.ts --network goerli
 npx hardhat run scripts/deploy-gov.ts --network goerli
 ```
 
-### Deploy to Optimism Goerli
+### Deploy to Optimism Goerli Testnet
 
 ```
 npx hardhat run scripts/clear.ts
@@ -54,7 +54,7 @@ npx hardhat run scripts/deploy-nft.ts --network optimism-goerli
 npx hardhat run scripts/deploy-gov.ts --network optimism-goerli
 ```
 
-### Deploy to Arbitrum Goerli
+### Deploy to Arbitrum Goerli Testnet
 
 ```
 npx hardhat run scripts/clear.ts
@@ -68,6 +68,22 @@ npx hardhat run scripts/deploy-gov.ts --network arbitrum-goerli
 npx hardhat run scripts/clear.ts
 npx hardhat run scripts/deploy-nft.ts --network optimism
 npx hardhat run scripts/deploy-gov.ts --network optimism
+```
+
+### Deploy to Gnosis Mainnet
+
+```
+npx hardhat run scripts/clear.ts
+npx hardhat run scripts/deploy-nft.ts --network gnosis
+npx hardhat run scripts/deploy-gov.ts --network gnosis
+```
+
+### Deploy to Gnosis Chiado Testnet
+
+```
+npx hardhat run scripts/clear.ts
+npx hardhat run scripts/deploy-nft.ts --network chiado
+npx hardhat run scripts/deploy-gov.ts --network chiado
 ```
 
 ## Use
