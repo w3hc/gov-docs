@@ -11,19 +11,6 @@ nav_order: 1
 We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [beta version](https://github.com/w3hc/gov/releases/tag/v0.9.0-beta) of [Gov](https://github.com/w3hc/gov). We want to run a series of pilots and **focus on the impact evaluation process** of each DAO.
 
 Gov is fully compatible with [Tally](https://www.tally.xyz/). We use it to submit proposals and vote.
-
-We're currently supporting the following networks: 
-
-- Optimism Mainnet
-- Gnosis Chain Mainnet
-- Celo Mainnet
-- Ethereum Goerli Testnet 
-- Optimism Goerli Testnet
-- Arbitrum Goerli Testnet
-- Celo Alfajores Testnet
-- Base Goerli Testnet
-- Gnosis Chain Testnet
-- Mantle Testnet
   
 Also, we have successfully tested [Medusa](https://medusanet.xyz/) (Arbitrum Goerli Testnet only for now). This allows anyone to share a document **that only the members can decrypt**.
 
@@ -70,6 +57,21 @@ The Governor contract allows us to trigger custom on-chain actions. When you dep
 ### Upgradeable governance settings
 
 You can upgrade the voting parameters by a community vote. Learn more about the [vote settings](./vote-settings.html).
+
+## Networks support
+
+We're currently supporting the following networks: 
+
+- Optimism Mainnet
+- Gnosis Chain Mainnet
+- Celo Mainnet
+- Ethereum Goerli Testnet 
+- Optimism Goerli Testnet
+- Arbitrum Goerli Testnet
+- Celo Alfajores Testnet
+- Base Goerli Testnet
+- Gnosis Chain Testnet
+- Mantle Testnet
 
 ## Github repositories
 
