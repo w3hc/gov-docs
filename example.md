@@ -50,3 +50,19 @@ Deployed to Gnosis Chain Mainnet on May 28, 2023 at 3:59 pm UTC:
 - Gov: [0xb2d6696f7f006e67b1a1eccb264e0e62a8a76f93](https://gnosisscan.io/address/0xb2d6696f7f006e67b1a1eccb264e0e62a8a76f93#code)
 
 [View this DAO on Tally](https://www.tally.xyz/gov/gcfa-dao){: .btn .btn-purple }
+
+## Base Goerli Testnet
+
+Deployed to Gnosis Chain Mainnet on June 3, 2023 at 8:44 am UTC:
+
+- NFT: [0xC1eE76058803FB7741c837F87F5e9CD5de5aFb21](https://goerli.basescan.org/address/0xc1ee76058803fb7741c837f87f5e9cd5de5afb21#code)
+- Gov: [0xac38a8884551ef679ead02fc3cc99a5e0d02a958](https://goerli.basescan.org/address/0xac38a8884551ef679ead02fc3cc99a5e0d02a958)
+
+[View this DAO on Tally](https://www.tally.xyz/gov/based-hackers){: .btn .btn-purple }
+
+## Mantle Testnet
+
+Deployed to Mantle Testnet on June 2, 2023 at 6:08 pm UTC:
+
+- NFT [0x9Fe9aF7f92b24B3839D1fe5654782c0677414Cc8](https://explorer.testnet.mantle.xyz/address/0x9Fe9aF7f92b24B3839D1fe5654782c0677414Cc8)
+- Gov: [0x1712FA50bd0f29Bbd46c0a48b04FfE927100A4d1](https://goerli.basescan.org/address/0x1712FA50bd0f29Bbd46c0a48b04FfE927100A4d1#code)

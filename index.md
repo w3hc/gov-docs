@@ -11,29 +11,14 @@ nav_order: 1
 We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [beta version](https://github.com/w3hc/gov/releases/tag/v0.9.0-beta) of [Gov](https://github.com/w3hc/gov). We want to run a series of pilots and **focus on the impact evaluation process** of each DAO.
 
 Gov is fully compatible with [Tally](https://www.tally.xyz/). We use it to submit proposals and vote.
-
-We're currently supporting the following networks: 
-
-- Optimism Mainnet
-- Ethereum Goerli Testnet 
-- Optimism Goerli Testnet
-- Arbitrum Goerli Testnet
-
+  
 Also, we have successfully tested [Medusa](https://medusanet.xyz/) (Arbitrum Goerli Testnet only for now). This allows anyone to share a document **that only the members can decrypt**.
-
-## Roadmap
-
-- Provide a 'one-click deployment' UI ✅
-- Finalize the legal aspects of the project (WIP)
-- Integrate with [Hypercerts](https://hypercerts.org/) and [ERC-4626](https://eips.ethereum.org/EIPS/eip-4626) ([WIP](https://github.com/w3hc/gov/blob/feat-erc4626-hypercerts/contracts/plugins/Vault2.sol))
-- Release Gov UI (WIP)
-- Support other EVM-compatible networks
 
 ## Deploy your own DAO
 
 You can find the deployment checklist [here](./deployment.html#checklist). Once you decided about (1) your mission statement, (2) the types of proposals you expect, and (3) the [vote settings](./vote-settings.html#guide), we can take an hour to deploy your DAO to the network of your choice. Feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.com/invite/uSxzJp3J76), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
 
-[Deploy your own DAO](https://gov-ui.on.fleek.co/){: .btn .btn-purple }
+[Deploy your own DAO](https://gov-deployer.on.fleek.co/){: .btn .btn-purple }
 
 ## Features
 
@@ -72,3 +57,27 @@ The Governor contract allows us to trigger custom on-chain actions. When you dep
 ### Upgradeable governance settings
 
 You can upgrade the voting parameters by a community vote. Learn more about the [vote settings](./vote-settings.html).
+
+## Networks support
+
+We're currently supporting the following networks: 
+
+- Optimism Mainnet
+- Gnosis Chain Mainnet
+- Celo Mainnet
+- Ethereum Goerli Testnet 
+- Optimism Goerli Testnet
+- Arbitrum Goerli Testnet
+- Celo Alfajores Testnet
+- Base Goerli Testnet
+- Gnosis Chain Testnet
+- Mantle Testnet
+
+## Github repositories
+
+- [gov](https://github.com/w3hc/gov)
+- [gov-ui](https://github.com/w3hc/gov-ui)
+- [gov-deployer](https://github.com/w3hc/gov-deployer)
+- [gov-docs](https://github.com/w3hc/gov-docs)
+
+[Have a look at our current to-do list](https://github.com/orgs/w3hc/projects/8/views/6){: .btn .btn-green }

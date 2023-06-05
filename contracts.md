@@ -100,7 +100,6 @@ contract Gov is
     }
 }
 ```
-[View on Etherscan](https://goerli.etherscan.io/address/0x90c54A30Ab0CAeBFAaAB4981E165AcCD472a0c3A#code)
 
 ## NFT.sol
 
@@ -134,8 +133,10 @@ contract NFT is
 
     constructor(
         address[] memory _firstMembers,
-        string memory _uri
-    ) ERC721("Membership NFT", "MEMBER") EIP712("Membership NFT", "1") {
+        string memory _uri,
+        string memory _name,
+        string memory _symbol
+    ) ERC721(_name, _symbol) EIP712(_name, "1") {
         for (uint i; i < _firstMembers.length; i++) {
             safeMint(_firstMembers[i], _uri);
         }
@@ -204,4 +205,3 @@ contract NFT is
     }
 }
 ```
-[View on Etherscan](https://goerli.etherscan.io/address/0xAa15FA49686Ce28085D61bb5f11C0C8208cE3472#code)
