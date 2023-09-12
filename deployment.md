@@ -12,7 +12,7 @@ Before you deploy your DAO, you should ask yourself the following questions:
 - What kind of proposals do you expect?
 - Who are the first members? 
 
-[Deploy your own DAO](https://w3hc.github.io/gov-docs/deployment.html){: .btn .btn-purple }
+[Deploy your own DAO](https://gov-deployer.on.fleek.co/){: .btn .btn-purple }
 
 ## Checklist
 

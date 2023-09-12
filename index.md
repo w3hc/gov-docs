@@ -18,7 +18,7 @@ Also, we have successfully tested [Medusa](https://medusanet.xyz/) (Arbitrum Goe
 
 You can find the deployment checklist [here](./deployment.html#checklist). Once you decided about (1) your mission statement, (2) the types of proposals you expect, and (3) the [vote settings](./vote-settings.html#guide), we can take an hour to deploy your DAO to the network of your choice. Feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.com/invite/uSxzJp3J76), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
 
-[Deploy your own DAO](https://w3hc.github.io/gov-docs/deployment.html){: .btn .btn-purple }
+[Deploy your own DAO](https://gov-deployer.on.fleek.co/){: .btn .btn-purple }
 
 ## Features
 
