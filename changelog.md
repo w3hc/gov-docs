@@ -6,6 +6,18 @@ nav_order: 100
 
 # Changelog
 
+### [v0.10.0](https://github.com/w3hc/gov/releases/tag/v0.10.0)
+
+- Refactoring
+- pnpm support
+- automatic verification
+- hardhat-deploy
+- Ethersjs v6
+- SBT (non-transferable NFT) by default
+- Timestamp-based by default
+- Gov UI finalised
+- Gov Deployer refactored (nft.storage support)
+
 ### [v0.9.0-beta](https://github.com/w3hc/gov/releases/tag/v0.9.0-beta)
 
 - Fixed the quorum calculation issue

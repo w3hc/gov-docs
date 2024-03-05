@@ -8,11 +8,9 @@ nav_order: 1
 
 [Gov](https://github.com/w3hc/gov) is a DAO framework built with Open Zeppelin's Governor contract in combination with NFTs. It provides **a coordination tool that fits the needs of everyday people**.
 
-We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [beta version](https://github.com/w3hc/gov/releases/tag/v0.9.0-beta) of [Gov](https://github.com/w3hc/gov). We want to run a series of pilots and **focus on the impact evaluation process** of each DAO.
+We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [v0.10.0](https://github.com/w3hc/gov/releases/tag/v0.10.0) of Gov. We want to run a series of [pilots](./pilots.html) and **focus on the impact evaluation process** of each DAO.
 
 Gov is fully compatible with [Tally](https://www.tally.xyz/). We use it to submit proposals and vote.
-  
-Also, we have successfully tested [Medusa](https://medusanet.xyz/) (Arbitrum Goerli Testnet only for now). This allows anyone to share a document **that only the members can decrypt**.
 
 ## Deploy your own DAO
 
@@ -25,6 +23,7 @@ You can find the deployment checklist [here](./deployment.html#checklist). Once 
 - [DAO membership NFTS (ERC-721)](./#dao-membership-nfts)
 - [On-chain voting system (Governor)](./#on-chain-voting-system)
 - [Members vote to add or ban a member](./#members-vote-to-add-or-ban-a-member)
+- [Timestamp-based](./#timestamp-based)
 - [Easy to config, deploy and run](./#easy-to-config-deploy-and-run)
 - [Fully compatible with Tally](./#fully-compatible-with-tally)
 - [Extreme composability/modularity](./#extreme-composabilitymodularity)
@@ -34,6 +33,8 @@ You can find the deployment checklist [here](./deployment.html#checklist). Once 
 
 The membership of your DAO is represented by an NFT. One person, one vote. These NFTs can be viewed as 'membership cards'. They're customizable: you can submit a proposal to modify the metadata of your NFT.
 
+Since `v0.10.0`, these NFTs are non-transferable by default ("SBT"). 
+
 ### On-chain voting system
 
 Open Zeppelin's Governor contract defines the voting rules: it allows members to cast a their vote, it counts the votes and execute the proposal if successful.
@@ -41,6 +42,10 @@ Open Zeppelin's Governor contract defines the voting rules: it allows members to
 ### Members vote to add or ban a member
 
 You can add or ban a member of the DAO by submitting a proposal. 
+
+### Timestamp-based
+
+Gov is timestamp-based by default, as opposed to `blockNumber`-based. 
 
 ### Easy to config, deploy and run
 
@@ -58,20 +63,14 @@ The Governor contract allows us to trigger custom on-chain actions. When you dep
 
 You can upgrade the voting parameters by a community vote. Learn more about the [vote settings](./vote-settings.html).
 
-## Networks support
+## Supported networks
 
 We're currently supporting the following networks: 
 
 - Optimism Mainnet
-- Gnosis Chain Mainnet
-- Celo Mainnet
-- Ethereum Goerli Testnet 
-- Optimism Goerli Testnet
-- Arbitrum Goerli Testnet
-- Celo Alfajores Testnet
-- Base Goerli Testnet
-- Gnosis Chain Testnet
-- Mantle Testnet
+- Optimism Sepolia Testnet
+- Sepolia
+- Arthera Testnet 
 
 ## Github repositories
 
@@ -80,4 +79,4 @@ We're currently supporting the following networks:
 - [gov-deployer](https://github.com/w3hc/gov-deployer)
 - [gov-docs](https://github.com/w3hc/gov-docs)
 
-[Have a look at our current to-do list](https://github.com/orgs/w3hc/projects/8/views/6){: .btn .btn-green }
+[Have a look at our current to-do list](https://github.com/orgs/w3hc/projects/8/views/9){: .btn .btn-green }
