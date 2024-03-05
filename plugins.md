@@ -17,36 +17,18 @@ To add a plugin to your DAO, you would:
 
 Once it's in place, the community can interact with it via a proposal.
 
-## Roadmap
+## Available plugins
 
-We're planning to release the following three plugins:
+### [Pattini](https://github.com/w3hc/pattini) 
 
-### Vault
+Rewards contributors of a given Github repository. 
 
-Gov is already fully compatible with [Gnosis Safe](https://help.tally.xyz/article/42-what-is-a-gnosis-safe) but we might want to use a special vault which would allow funders to **take back their donation**. They would do that if they're not happy with one of the proposals. 
+### [Exponential love](https://github.com/w3hc/exponential-love)
 
-If some money were spent in the meantime, people who donated can just take their USDC back.
+Fundraising app (to be refactored).
 
-### Hypercerts
+## To be implemented
 
-> Hypercerts are a tool to build scalable retrospective reward systems for impact.
-
-[https://hypercerts.xyz/](https://hypercerts.xyz/)
-
-Since the DAO members (aka 'auditors') do the work of verifying every proposals, it makes sense to issue a hypercert when the proposal is executed. Fractions of these could then be sold.
-
-## Contracts
-
-You can find the draft plugins in the [`/contracts/plugins`](https://github.com/w3hc/gov/tree/main/contracts/plugins) directory. Please note they're unsafe to use right now.
-
-### [HypercertsMock.sol](https://github.com/w3hc/gov/blob/main/contracts/mocks/ERC1155Mock.sol)
-
-For now, I'm using an ERC-721 to mimick the behavior of [HypercertMinter](https://goerli.etherscan.io/address/0x822f17a9a5eecfd66dbaff7946a8071c265d1d07#code).
-
-A hypercert represents the contribution verified by the DAO members (aka 'auditors').
-
-### [Vault2.sol](https://github.com/w3hc/gov/blob/main/contracts/plugins/Vault2.sol)
-
-Supports USDC only.
-
-Allow funders to take back their donation when they want to. If the DAO spent some funds in the meantime, they can withdraw USDC proportionally to what's left in the vault. Funders can also mint the hypercert associated with a given proposal.
+- [Hypercerts](https://hypercerts.org/)
+- Website
+- Payment splitter

@@ -15,6 +15,15 @@ The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective)
 
 [View this DAO on Tally](https://www.tally.xyz/gov/web3-hackers-collective){: .btn .btn-purple }
 
+## Sepolia
+
+Deployed to Sepolia (`v0.10.0`) on Feb 24, 2024 at 12:39 pm:
+
+- NFT: [0x7628Dce5233D379738BA6BDE9339EB00834D5FC1](https://sepolia.etherscan.io/address/0x7628Dce5233D379738BA6BDE9339EB00834D5FC1#code)
+- Gov: [0xd70f702cb1a18c8bb86e1b8dde32e97cbcfcad52](https://sepolia.etherscan.io/address/0xd70f702cb1a18c8bb86e1b8dde32e97cbcfcad52#code)
+
+---
+
 ## Arbitrum Goerli Testnet
 
 Deployed to Arbitrum Goerli Testnet on Jan 26, 2023 at 10:37 pm UTC:
