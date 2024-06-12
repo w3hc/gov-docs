@@ -6,6 +6,20 @@ nav_order: 100
 
 # Changelog
 
+## Gov UI
+
+* Switch to op sepolia by @julienbrg in https://github.com/w3hc/gov-ui/pull/67
+* Integrate with Web3 Modal by @julienbrg in https://github.com/w3hc/gov-ui/pull/69
+* New deployment by @julienbrg in https://github.com/w3hc/gov-ui/pull/73
+* Fix email login by @julienbrg in https://github.com/w3hc/gov-ui/pull/75
+* Add subgraph by @julienbrg in https://github.com/w3hc/gov-ui/pull/77
+* Fix indexing by @julienbrg in https://github.com/w3hc/gov-ui/pull/80
+* Fix error management by @julienbrg in https://github.com/w3hc/gov-ui/pull/82
+
+**Full Changelog**: https://github.com/w3hc/gov-ui/compare/v0.10.0...v0.10.1
+
+## Gov contracts
+
 ### [v0.10.0](https://github.com/w3hc/gov/releases/tag/v0.10.0)
 
 - Refactoring
