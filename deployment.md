@@ -18,7 +18,7 @@ No tech required.
 
 [Deploy your own DAO](https://gov-deployer.on.fleek.co/){: .btn .btn-purple }
 
-## Deploy from repoistory
+## Deploy from repository
 
 - Clone [Gov repository](https://github.com/w3hc/gov) locally
 - Make sure the addresses of the first members are correct
