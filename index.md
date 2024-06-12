@@ -10,18 +10,26 @@ nav_order: 1
 
 We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [v0.10.0](https://github.com/w3hc/gov/releases/tag/v0.10.0) of Gov. We want to run a series of [pilots](./pilots.html) and **focus on the impact evaluation process** of each DAO.
 
-Gov is fully compatible with [Tally](https://www.tally.xyz/). We use it to submit proposals and vote.
+Gov is fully compatible with [Tally](https://www.tally.xyz/), and you can also use [Gov UI](https://github.com/w3hc/gov-ui) `v0.10.1` (view the [deployment](./deployment.html) section). You can test the web app here: 
+
+[Test Gov UI](https://gov-ui.netlify.app/){: .btn .btn-green }
+
+**You don't need any wallet or ETH to test it!** 
 
 ## Deploy your own DAO
 
 You can find the deployment checklist [here](./deployment.html#checklist). Once you decided about (1) your mission statement, (2) the types of proposals you expect, and (3) the [vote settings](./vote-settings.html#guide), we can take an hour to deploy your DAO to the network of your choice. Feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.com/invite/uSxzJp3J76), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
 
-[Deploy your own DAO](https://gov-deployer.on.fleek.co/){: .btn .btn-purple }
+<!-- {: .custom }
+You can use Gov Deployer but it is currently under development. 
+
+[Deploy your own DAO](https://gov-deployer.on.fleek.co/){: .btn .btn-purple } -->
 
 ## Features
 
 - [DAO membership NFTS (ERC-721)](./#dao-membership-nfts)
 - [On-chain voting system (Governor)](./#on-chain-voting-system)
+- [Customizable interface with email login](./#customizable-interface-with-email-login)
 - [Members vote to add or ban a member](./#members-vote-to-add-or-ban-a-member)
 - [Timestamp-based](./#timestamp-based)
 - [Easy to config, deploy and run](./#easy-to-config-deploy-and-run)
@@ -38,6 +46,10 @@ Since `v0.10.0`, these NFTs are non-transferable by default ("SBT").
 ### On-chain voting system
 
 Open Zeppelin's Governor contract defines the voting rules: it allows members to cast a their vote, it counts the votes and execute the proposal if successful.
+
+### Customizable interface with email login
+
+In addition to Tally interface, you can get your own web app (website). The users, members of your DAO, don't need any wallet to submit proposals, vote, delegate their voting power, etc. 
 
 ### Members vote to add or ban a member
 
