@@ -20,6 +20,8 @@ You can find the full deployment checklist [here](./deployment.html#checklist), 
 
 [Deploy your own DAO](https://gov-deployer.netlify.app){: .btn .btn-purple target="_blank" }
 
+<img src="./assets/images/gov-deployer.png" width="300" alt="post-deployment-screenshot">
+
 Gov is fully compatible with [Tally](https://www.tally.xyz/get-started), so right after the deployment you can add it to Tally: 
 
 - Click on `Deploy myself`
@@ -27,6 +29,8 @@ Gov is fully compatible with [Tally](https://www.tally.xyz/get-started), so righ
 - Check the three boxes then click `Get Started`
 - Paste your Gov contract address 
 - You should be good to go! 
+
+And don't forget to **delegate to yourself** before you submit a proposal, otherwise you won't be able to vote. 
 
 ## Features
 
