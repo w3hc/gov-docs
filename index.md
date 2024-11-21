@@ -8,22 +8,25 @@ nav_order: 1
 
 [Gov](https://github.com/w3hc/gov) is a DAO framework built with Open Zeppelin's Governor contract in combination with NFTs. It provides **a coordination tool that fits the needs of everyday people**.
 
-We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [v0.10.0](https://github.com/w3hc/gov/releases/tag/v0.10.0) of Gov. We want to run a series of [pilots](./pilots.html) and **focus on the impact evaluation process** of each DAO.
+We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [v0.10.1](https://github.com/w3hc/gov/releases/tag/v0.10.1) of Gov.
 
-Gov is fully compatible with [Tally](https://www.tally.xyz/), and you can also use [Gov UI](https://github.com/w3hc/gov-ui) `v0.10.1` (view the [deployment](./deployment.html) section). You can test the web app here: 
+The most important to know before you deploy you own DAO is the following: 
 
-[Test Gov UI](https://gov-ui.netlify.app/){: .btn .btn-green }
+1. What is the mission statement of your DAO?
+2. Who are the first members?
+3. What kind of proposals do you expect? 
 
-**You don't need any wallet or ETH to test it!** 
+You can find the full deployment checklist [here](./deployment.html#checklist), but feel very free to reach out to Julien: [Element](https://matrix.to/#/@julienbrg:matrix.org), [Farcaster](https://warpcast.com/julien-), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.com/invite/uSxzJp3J76), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
 
-## Deploy your own DAO
+[Deploy your own DAO](https://gov-deployer.netlify.app){: .btn .btn-purple target="_blank" }
 
-You can find the deployment checklist [here](./deployment.html#checklist). Once you decided about (1) your mission statement, (2) the types of proposals you expect, and (3) the [vote settings](./vote-settings.html#guide), we can take an hour to deploy your DAO to the network of your choice. Feel very free to contact Julien directly via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.com/invite/uSxzJp3J76), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
+Gov is fully compatible with [Tally](https://www.tally.xyz/get-started), so right after the deployment you can add it to Tally: 
 
- {: .custom }
-You can use Gov Deployer but it is currently under development. 
-
-[Deploy your own DAO](gov-deployer.netlify.app){: .btn .btn-purple } 
+- Click on `Deploy myself`
+- Click on `Deploy contracts yourself`
+- Check the three boxes then click `Get Started`
+- Paste your Gov contract address 
+- You should be good to go! 
 
 ## Features
 
@@ -82,7 +85,6 @@ We're currently supporting the following networks:
 - Optimism Mainnet
 - Optimism Sepolia Testnet
 - Sepolia
-- Arthera Testnet 
 
 ## Github repositories
 
@@ -90,5 +92,3 @@ We're currently supporting the following networks:
 - [gov-ui](https://github.com/w3hc/gov-ui)
 - [gov-deployer](https://github.com/w3hc/gov-deployer)
 - [gov-docs](https://github.com/w3hc/gov-docs)
-
-[Have a look at our current to-do list](https://github.com/orgs/w3hc/projects/8/views/9){: .btn .btn-green }
