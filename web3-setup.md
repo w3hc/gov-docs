@@ -39,6 +39,5 @@ MetaMask helps you remain in control of your crypto-assets, including your DAO m
 - [x] [Optimism](https://www.optimism.io/)
 - [x] [sepolia](https://sepolia.etherscan.io/)
 - [ ] [OP Sepolia](https://sepolia-optimistic.etherscan.io/)
-- [ ] [Arthera testnet](https://explorer-test.arthera.net/)
 
 You can find the [full list of networks supported by Tally](https://docs.tally.xyz/user-guides/tally-contract-compatibility/network-support) in their docs. 

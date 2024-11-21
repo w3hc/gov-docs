@@ -16,9 +16,6 @@ Before you deploy your DAO, you should ask yourself the following questions:
 
 No tech required. 
 
-{: .warning }
-You can use Gov Deployer but it is currently under development. 
-
 [Deploy your own DAO](https://gov-deployer.netlify.app/){: .btn .btn-purple }
 
 ## Deploy manually
