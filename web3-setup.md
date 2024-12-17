@@ -36,8 +36,12 @@ MetaMask helps you remain in control of your crypto-assets, including your DAO m
 
 # Other networks
 
-- [x] [Optimism](https://www.optimism.io/)
-- [x] [sepolia](https://sepolia.etherscan.io/)
-- [ ] [OP Sepolia](https://sepolia-optimistic.etherscan.io/)
+- [x] [Optimism](https://docs.optimism.io/chain/networks#op-mainnet)
+- [x] [Arbitrum](https://docs.arbitrum.io/welcome/get-started)
+- [x] [Base](https://docs.base.org/docs/network-information#base-mainnet)
+- [x] [Sepolia](https://ethereum.org/nb/developers/docs/networks/#sepolia)
+- [x] [OP Sepolia](https://docs.optimism.io/chain/networks#op-sepolia)
+- [x] [Arbitrum Sepolia](https://docs.arbitrum.io/welcome/get-started)
+- [x] [Base Sepolia](https://docs.base.org/docs/network-information/#base-testnet-sepolia)
 
 You can find the [full list of networks supported by Tally](https://docs.tally.xyz/user-guides/tally-contract-compatibility/network-support) in their docs. 
