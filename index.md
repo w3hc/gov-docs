@@ -10,13 +10,16 @@ nav_order: 1
 
 We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [v0.10.1](https://github.com/w3hc/gov/releases/tag/v0.10.1) of Gov.
 
+{: .custom }
+> We just released a cross-chain variant, your DAO can now be be deployed to [all networks](./crosschain.html)!
+
 The most important to know before you deploy you own DAO is the following: 
 
 1. What is the mission statement of your DAO?
 2. Who are the first members?
 3. What kind of proposals do you expect? 
 
-You can find the full deployment checklist [here](./deployment.html#checklist), but feel very free to reach out to Julien: [Element](https://matrix.to/#/@julienbrg:matrix.org), [Farcaster](https://warpcast.com/julien-), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.com/invite/uSxzJp3J76), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
+You can find the full deployment checklist [here](./deployment.html#checklist), but feel free to reach out to [Julien](https://github.com/julienbrg) on [Farcaster](https://warpcast.com/julien-), [Element](https://matrix.to/#/@julienbrg:matrix.org), [Status](https://status.app/u/iwSACggKBkp1bGllbgM=#zQ3shmh1sbvE6qrGotuyNQB22XU5jTrZ2HFC8bA56d5kTS2fy), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discordapp.com/users/julienbrg), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
 
 [Deploy your own DAO](https://gov-deployer.netlify.app){: .btn .btn-purple target="_blank" }
 
@@ -86,9 +89,13 @@ You can upgrade the voting parameters by a community vote. Learn more about the 
 
 We're currently supporting the following networks: 
 
-- Optimism Mainnet
-- Optimism Sepolia Testnet
-- Sepolia
+- [Optimism](https://docs.optimism.io/chain/networks#op-mainnet)
+- [Arbitrum](https://docs.arbitrum.io/welcome/get-started)
+- [Base](https://docs.base.org/docs/network-information#base-mainnet)
+- [Sepolia](https://ethereum.org/nb/developers/docs/networks/#sepolia)
+- [OP Sepolia](https://docs.optimism.io/chain/networks#op-sepolia)
+- [Arbitrum Sepolia](https://docs.arbitrum.io/welcome/get-started)
+- [Base Sepolia](https://docs.base.org/docs/network-information/#base-testnet-sepolia)
 
 ## Github repositories
 
