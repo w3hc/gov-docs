@@ -2,7 +2,8 @@ title: Gov
 description: Gov docs
 theme: just-the-docs
 
-url: https://w3hc.github.io/gov-docs/
+url: https://w3hc.github.io
+baseurl: /gov-docs
 
 aux_links:
   Github repo: https://github.com/w3hc/gov
@@ -11,7 +12,7 @@ heading_anchors: true
 
 color_scheme: dark
 
-favicon_ico: "./assets/images/favicon.ico"
+favicon_ico: "/assets/images/favicon.ico"
 
 callouts:
   warning:
