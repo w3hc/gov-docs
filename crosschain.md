@@ -6,6 +6,9 @@ nav_order: 45
 
 # Crosschain DAO Implementation
 
+{: .custom }
+> Please keep in mind this variant is experimental and optional.
+
 The crosschain variant of Gov enables DAOs to operate across multiple blockchain networks while maintaining consistent governance and membership state. This implementation consists of two main contracts - Gov and NFT - working together to provide cross-chain governance and membership management.
 
 Gov can be deployed at the same contract address to any EVM networks supporting CREATE2. This means you can have identical contract addresses across different networks like Optimism, Arbitrum, and Base, making it easier to manage and interact with your DAO across multiple chains.
