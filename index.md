@@ -11,7 +11,7 @@ nav_order: 1
 We're inviting orgs, federations of orgs, activists, neighborhoods, stewards of the commons, collectives, and all communities to create their own DAO. The [Web3 Hackers Collective](https://www.tally.xyz/gov/web3-hackers-collective) has recently released the [v0.10.1](https://github.com/w3hc/gov/releases/tag/v0.10.1) of Gov.
 
 {: .custom }
-> We just released a cross-chain variant, your DAO can now be be deployed to [all networks](./crosschain.html)!
+> We just released a cross-chain variant, your DAO can now be deployed to [all networks](./crosschain.html) at the same address!
 
 The most important to know before you deploy you own DAO is the following: 
 
@@ -20,6 +20,8 @@ The most important to know before you deploy you own DAO is the following:
 3. What kind of proposals do you expect? 
 
 You can find the full deployment checklist [here](./deployment.html#checklist), but feel free to reach out to [Julien](https://github.com/julienbrg) on [Farcaster](https://warpcast.com/julien-), [Element](https://matrix.to/#/@julienbrg:matrix.org), [Status](https://status.app/u/iwSACggKBkp1bGllbgM=#zQ3shmh1sbvE6qrGotuyNQB22XU5jTrZ2HFC8bA56d5kTS2fy), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discordapp.com/users/julienbrg), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
+
+## Deploy
 
 [Deploy your own DAO](https://gov-deployer.netlify.app){: .btn .btn-purple target="_blank" }
 
@@ -87,11 +89,14 @@ You can upgrade the voting parameters by a community vote. Learn more about the 
 
 ## Supported networks
 
-We're currently supporting the following networks: 
+### Mainnets
 
 - [Optimism](https://docs.optimism.io/chain/networks#op-mainnet)
 - [Arbitrum](https://docs.arbitrum.io/welcome/get-started)
 - [Base](https://docs.base.org/docs/network-information#base-mainnet)
+
+### Testnets
+
 - [Sepolia](https://ethereum.org/nb/developers/docs/networks/#sepolia)
 - [OP Sepolia](https://docs.optimism.io/chain/networks#op-sepolia)
 - [Arbitrum Sepolia](https://docs.arbitrum.io/welcome/get-started)
@@ -99,7 +104,9 @@ We're currently supporting the following networks:
 
 ## Github repositories
 
-- [gov](https://github.com/w3hc/gov)
-- [gov-ui](https://github.com/w3hc/gov-ui)
-- [gov-deployer](https://github.com/w3hc/gov-deployer)
-- [gov-docs](https://github.com/w3hc/gov-docs)
+- [gov](https://github.com/w3hc/gov): Solidity contracts, including the cross-chain variant
+- [gov-ui](https://github.com/w3hc/gov-ui): Next.js interface to interact with the Solidity contracts
+- [gov-deployer](https://github.com/w3hc/gov-deployer): Allows anyone to deploy a DAO
+- [gov-docs](https://github.com/w3hc/gov-docs): Technical documentation
+- [gov-saas](https://github.com/w3hc/gov-saas): Next.js interface (alternative to [gov-ui](https://github.com/w3hc/gov-ui))
+- [gov-api](https://github.com/w3hc/gov-api): Nest-js API to automatize execution and sync across networks
