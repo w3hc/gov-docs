@@ -1,10 +1,13 @@
 title: Gov
 description: Gov docs
-theme: just-the-docs
+# Use remote_theme instead of theme for GitHub Pages
+remote_theme: just-the-docs/just-the-docs
+# theme: just-the-docs
 
 url: https://w3hc.github.io
 baseurl: /gov-docs
 
+# Make sure all links use the baseurl
 aux_links:
   Github repo: https://github.com/w3hc/gov
 
@@ -12,7 +15,8 @@ heading_anchors: true
 
 color_scheme: dark
 
-favicon_ico: "/assets/images/favicon.ico"
+# Update favicon path to use site.baseurl
+favicon_ico: /assets/images/favicon.ico
 
 callouts:
   warning:
