@@ -21,3 +21,7 @@ The following functions are `onlyOwner`, and since the NFT contract ownership is
 - `safeMint()` adds a new member.
 - `govBurn()` adds to ban a member.
 - `setMetadata()` changes the tokenURI of a given NFT ID.
+
+## The Governor contract
+
+When [this Open Zeppelin post](https://blog.openzeppelin.com/announcing-a-new-working-group-for-openzeppelin-governor) was published (November 7, 2024), we can see that over $32 billion in value is secured using the Governor framework as either Treasury funds or protocol TVL. Additionally, more than 5,600 Governor contracts have been deployed over a dozen different networks.

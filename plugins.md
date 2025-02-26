@@ -16,19 +16,3 @@ To add a plugin to your DAO, you would:
 2. Transfer the ownership to the DAO
 
 Once it's in place, the community can interact with it via a proposal.
-
-## Available plugins
-
-### [Pattini](https://github.com/w3hc/pattini) 
-
-Rewards contributors of a given Github repository. 
-
-### [Exponential love](https://github.com/w3hc/exponential-love)
-
-Fundraising app (to be refactored).
-
-## To be implemented
-
-- [Hypercerts](https://hypercerts.org/)
-- Website
-- Payment splitter
